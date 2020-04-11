@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Notes>
+    <Note>
+        <objectId>sdfa-2124-1215-1515</objectId>
+        <updateDateTime>2006-05-04T18:13:51.0</updateDateTime>
+        <notation>lorem ipsum set amment notation1</notation>
+        <ObjectReference>
+            <objectId>bank1</objectId>
+            <entityType>rs_1</entityType>
+        </ObjectReference>
+        <dateTimeCalc>2006-05-04T18:13:51.0</dateTimeCalc>
+        <authorId>2-222</authorId>
+        <authorName>Erisheva</authorName>
+    </Note>
+    <Note>
+        <objectId>dfsd-2324-sdfs23-42df</objectId>
+        <updateDateTime>2006-05-04T18:13:51.0</updateDateTime>
+        <notation>lorem ipsum set amment notation1</notation>
+        <ObjectReference>
+            <objectId>bank1</objectId>
+            <entityType>rs_2</entityType>
+        </ObjectReference>
+        <ObjectReference>
+            <objectId>bank2</objectId>
+            <entityType>rs_1</entityType>
+        </ObjectReference>
+        <dateTimeCalc>2006-05-04T18:15:51.0</dateTimeCalc>
+        <authorId>1-11</authorId>
+        <authorName>Kalmakov</authorName>
+    </Note>
+</Notes>

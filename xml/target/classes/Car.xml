@@ -1,0 +1,10 @@
+<Cars>
+    <Car>
+        <model>bmv</model>
+        <color>red</color>
+    </Car>
+    <Car>
+        <model>kia</model>
+        <color>white</color>
+    </Car>
+</Cars>

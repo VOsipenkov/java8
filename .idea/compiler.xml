@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test" />
+        <module name="inheritance" />
+        <module name="lambda" />
+        <module name="workwithcassandra" />
+        <module name="reflection" />
+        <module name="dates" />
+        <module name="exception" />
+        <module name="xml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dates" target="1.8" />
+      <module name="exception" target="1.8" />
+      <module name="inheritance" target="1.8" />
+      <module name="java8" target="1.5" />
+      <module name="lambda" target="1.8" />
+      <module name="reflection" target="1.5" />
+      <module name="test" target="8" />
+      <module name="workwithcassandra" target="1.8" />
+      <module name="xml" target="7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

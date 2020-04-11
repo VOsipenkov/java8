@@ -1,0 +1,10 @@
+<Risks>
+    <Risk>
+        <objectId>aaa-bbb</objectId>
+        <name>default</name>
+    </Risk>
+    <Risk>
+        <objectId>2123-12-312-23123</objectId>
+        <name>oil</name>
+    </Risk>
+</Risks>
