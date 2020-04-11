@@ -11,6 +11,9 @@ public class SaxMain {
         parseNotes();
     }
 
+    /*
+     * Парс файла Note.xml
+     */
     public static void parseNotes() throws Exception {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         SAXParser saxParser = saxParserFactory.newSAXParser();
@@ -20,6 +23,7 @@ public class SaxMain {
         System.out.println(handler.getNotes());
     }
 
+    /* Парс файла User*/
     public static void parseUser() throws Exception {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser saxParser = factory.newSAXParser();
@@ -30,5 +34,4 @@ public class SaxMain {
         saxParser.parse(file, handler);
         System.out.println(handler);
     }
-
 }
